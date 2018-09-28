@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AppsCell" customModule="RelaxApp3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppsDefualtIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Arn-mg-lTv">
+                        <rect key="frame" x="23" y="14" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="4OP-N0-Kj1"/>
+                            <constraint firstAttribute="width" constant="44" id="PWr-fP-J25"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOK-Px-zMZ">
+                        <rect key="frame" x="5" y="67" width="80" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="BOK-Px-zMZ" secondAttribute="bottom" constant="6" id="6tf-eR-xD7"/>
+                <constraint firstItem="BOK-Px-zMZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="9k3-vu-5hz"/>
+                <constraint firstItem="Arn-mg-lTv" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="KvW-7v-zSd"/>
+                <constraint firstItem="BOK-Px-zMZ" firstAttribute="top" secondItem="Arn-mg-lTv" secondAttribute="bottom" constant="9" id="LbR-QX-rsH"/>
+                <constraint firstAttribute="trailing" secondItem="BOK-Px-zMZ" secondAttribute="trailing" constant="5" id="hb0-br-bkM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="imageView" destination="Arn-mg-lTv" id="2GD-of-p7G"/>
+                <outlet property="nameL" destination="BOK-Px-zMZ" id="nar-pI-QA7"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="AppsDefualtIcon" width="41" height="44"/>
+    </resources>
+</document>

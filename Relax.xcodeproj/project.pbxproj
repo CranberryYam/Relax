@@ -21,6 +21,14 @@
 		80590F8D215EBD5600626407 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80590F8A215EBD5600626407 /* UIColor.swift */; };
 		80590F8E215EBD5600626407 /* FromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80590F8B215EBD5600626407 /* FromNib.swift */; };
 		80590F93215EBDCB00626407 /* TestBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 80590F92215EBDCB00626407 /* TestBridgingHeader.m */; };
+		80590FEE215EC3DB00626407 /* AppsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80590FE6215EC3DB00626407 /* AppsModel.swift */; };
+		80590FEF215EC3DB00626407 /* AppsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80590FE7215EC3DB00626407 /* AppsPresenter.swift */; };
+		80590FF0215EC3DB00626407 /* AppsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80590FE8215EC3DB00626407 /* AppsController.swift */; };
+		80590FF1215EC3DB00626407 /* AppsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80590FEA215EC3DB00626407 /* AppsHeaderView.swift */; };
+		80590FF2215EC3DB00626407 /* AppsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80590FEB215EC3DB00626407 /* AppsHeaderView.xib */; };
+		80590FF3215EC3DB00626407 /* AppsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80590FEC215EC3DB00626407 /* AppsCell.xib */; };
+		80590FF4215EC3DB00626407 /* AppsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80590FED215EC3DB00626407 /* AppsCell.swift */; };
+		80590FF6215EC48400626407 /* MicroAppList.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80590FF5215EC48400626407 /* MicroAppList.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +71,14 @@
 		80590F8F215EBD6300626407 /* Relax-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Relax-Bridging-Header.h"; sourceTree = "<group>"; };
 		80590F91215EBDCB00626407 /* TestBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBridgingHeader.h; sourceTree = "<group>"; };
 		80590F92215EBDCB00626407 /* TestBridgingHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBridgingHeader.m; sourceTree = "<group>"; };
+		80590FE6215EC3DB00626407 /* AppsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsModel.swift; sourceTree = "<group>"; };
+		80590FE7215EC3DB00626407 /* AppsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsPresenter.swift; sourceTree = "<group>"; };
+		80590FE8215EC3DB00626407 /* AppsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsController.swift; sourceTree = "<group>"; };
+		80590FEA215EC3DB00626407 /* AppsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsHeaderView.swift; sourceTree = "<group>"; };
+		80590FEB215EC3DB00626407 /* AppsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppsHeaderView.xib; sourceTree = "<group>"; };
+		80590FEC215EC3DB00626407 /* AppsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppsCell.xib; sourceTree = "<group>"; };
+		80590FED215EC3DB00626407 /* AppsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsCell.swift; sourceTree = "<group>"; };
+		80590FF5215EC48400626407 /* MicroAppList.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MicroAppList.xcassets; sourceTree = "<group>"; };
 		BE2696C03DC38DFA56442BBB /* Pods-RelaxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelaxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RelaxUITests/Pods-RelaxUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D181BF20EACE7BECCC84EA5A /* Pods-Relax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relax.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Relax/Pods-Relax.debug.xcconfig"; sourceTree = "<group>"; };
 		D356471AC767FA24E3ECE4C0 /* Pods_RelaxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelaxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +131,7 @@
 		80590F4D215EBAEE00626407 = {
 			isa = PBXGroup;
 			children = (
+				80590FE3215EC3DB00626407 /* Activity */,
 				80590F87215EBD5600626407 /* Basic */,
 				80590F58215EBAEE00626407 /* Relax */,
 				80590F6D215EBAF000626407 /* RelaxTests */,
@@ -185,6 +202,45 @@
 				80590F8B215EBD5600626407 /* FromNib.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		80590FE3215EC3DB00626407 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				80590FE4215EC3DB00626407 /* MicroAppList */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		80590FE4215EC3DB00626407 /* MicroAppList */ = {
+			isa = PBXGroup;
+			children = (
+				80590FF5215EC48400626407 /* MicroAppList.xcassets */,
+				80590FE5215EC3DB00626407 /* CoreLogic */,
+				80590FE9215EC3DB00626407 /* SideViews */,
+			);
+			path = MicroAppList;
+			sourceTree = "<group>";
+		};
+		80590FE5215EC3DB00626407 /* CoreLogic */ = {
+			isa = PBXGroup;
+			children = (
+				80590FE6215EC3DB00626407 /* AppsModel.swift */,
+				80590FE7215EC3DB00626407 /* AppsPresenter.swift */,
+				80590FE8215EC3DB00626407 /* AppsController.swift */,
+			);
+			path = CoreLogic;
+			sourceTree = "<group>";
+		};
+		80590FE9215EC3DB00626407 /* SideViews */ = {
+			isa = PBXGroup;
+			children = (
+				80590FEA215EC3DB00626407 /* AppsHeaderView.swift */,
+				80590FEB215EC3DB00626407 /* AppsHeaderView.xib */,
+				80590FEC215EC3DB00626407 /* AppsCell.xib */,
+				80590FED215EC3DB00626407 /* AppsCell.swift */,
+			);
+			path = SideViews;
 			sourceTree = "<group>";
 		};
 		A7CCB1FDE4E175824293459A /* Frameworks */ = {
@@ -305,9 +361,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80590FF3215EC3DB00626407 /* AppsCell.xib in Resources */,
 				80590F64215EBAF000626407 /* LaunchScreen.storyboard in Resources */,
 				80590F61215EBAF000626407 /* Assets.xcassets in Resources */,
 				80590F5F215EBAEE00626407 /* Main.storyboard in Resources */,
+				80590FF6215EC48400626407 /* MicroAppList.xcassets in Resources */,
+				80590FF2215EC3DB00626407 /* AppsHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,8 +450,13 @@
 			files = (
 				80590F93215EBDCB00626407 /* TestBridgingHeader.m in Sources */,
 				80590F5C215EBAEE00626407 /* ViewController.swift in Sources */,
+				80590FF0215EC3DB00626407 /* AppsController.swift in Sources */,
+				80590FEF215EC3DB00626407 /* AppsPresenter.swift in Sources */,
 				80590F8D215EBD5600626407 /* UIColor.swift in Sources */,
+				80590FF1215EC3DB00626407 /* AppsHeaderView.swift in Sources */,
 				80590F8C215EBD5600626407 /* Animation.swift in Sources */,
+				80590FEE215EC3DB00626407 /* AppsModel.swift in Sources */,
+				80590FF4215EC3DB00626407 /* AppsCell.swift in Sources */,
 				80590F5A215EBAEE00626407 /* AppDelegate.swift in Sources */,
 				80590F8E215EBD5600626407 /* FromNib.swift in Sources */,
 			);
