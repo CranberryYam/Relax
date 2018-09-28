@@ -10,5 +10,6 @@
 #define Relax_Bridging_Header_h
 
 #import "TestBridgingHeader.h"
+#import "Relax_Vision-Bridging-Header.h"
 
-#endif /* Relax_Vision_Bridging_Header_h */
+#endif 
