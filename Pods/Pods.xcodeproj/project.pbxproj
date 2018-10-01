@@ -7,15 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0128E1BC2440DDF7FEFE11D88B1FDFFC /* SonicDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA3F6B33C139D9A81E8BD5495F0EA7C /* SonicDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03EB56C72F0DA537DD464D193ECB4CA0 /* SonicDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F22CEE13FF4A362ABDA25D4960DA6A /* SonicDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		148CA47D1A8438F7E1796464C70BAF9B /* SonicServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C67CF7C3FA450A9DAC31D4D76E3F5774 /* SonicServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15A48562A67150EBAEC40E5E654DA924 /* SonicUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8CC326A00FA1D968050E541F2C53EF /* SonicUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1672A8CADCCF854D077099B0258F1F54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3332E9BFC405CD42B1FB6DEF0DD8D923 /* Pods-Relax-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A59258C95D4D72C914F1CD82F50235B1 /* Pods-Relax-dummy.m */; };
+		187B41EAED0447B10AA81BD22EFC403C /* SonicUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FD013A9FD9ABCA4CB32E92455C5C7D /* SonicUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1C8A8F272B1A6E9B3B9E28785E31C6F0 /* SonicConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D184AE4845619F88405E4EF69D5F22C /* SonicConfiguration.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		217FDDD3DE625A66418B74970D9D515C /* Pods-Relax-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A59258C95D4D72C914F1CD82F50235B1 /* Pods-Relax-dummy.m */; };
+		29114C49F0035C56EEC23CAC5F554D09 /* SonicCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ED85B0D44AA019BF0B0C6183D01EF4 /* SonicCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2F6EECC1D8CC53258433AF7B64FBAEE9 /* SonicResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FC013FE94DC85C9B59289B8312030F /* SonicResourceLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		383B7CBA23F11401D1DB2BB1A4E2ADD2 /* SonicResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05C1847473086346D17D31EC2EC20F /* SonicResourceLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3B6B8E1F2FB6D5926299F3ECB766CEF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		3E22E611AFC33A0B04CC55EE5CEEB8BC /* Pods-RelaxTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2567FF56B346EB07E37119901EC9BDE /* Pods-RelaxTests-dummy.m */; };
+		466442121BABC120A7B3B8936CEF3555 /* SonicEventStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = E544BE2633BB9163D43DA8E5AD6BA16E /* SonicEventStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		474D3B676A9390689A6E1CB383CC0D56 /* SonicProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F19884540831D7A49BD36D1BC95377E /* SonicProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		475C46F8EB7C32A84C491D713E4CC025 /* SonicSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A1A3677C149317E0633D76007DD950 /* SonicSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49787956DE5BD36C0CD092878BAA66DE /* SonicConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F773F1059AD787F88640019F94BC6A6 /* SonicConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49787A9527779F7CE0F01D23D2DD7BD0 /* SonicResourceLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EBA3E9E89AFF112F9F5ABEC2A6D9C1 /* SonicResourceLoadOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4B536DCA9817B8246267A59CAF0F8192 /* Pods-RelaxUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7283D87D80BC9FA4F04EB469C619366 /* Pods-RelaxUITests-dummy.m */; };
 		589EDB69958BAA4D330D0AEF77754DF2 /* Pods-RelaxTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD9F24C9D87C689DC230733098E348C /* Pods-RelaxTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E5E6255E26D031326894C0CA92023C4 /* Pods-Relax-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FAD345EF88CCA3B8C25B87B7A60E4C6 /* Pods-Relax-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B30A5282A289F8D64951BF28F376DB9 /* SonicConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC1E2FB9741F8554E049CBEE9153CFD /* SonicConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		641AF467DD67BB79E9CE6B0EC396CFB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6ACBDD6DCA2FCD222C02485356BED260 /* SonicURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D500190476214D8441E385BA9C7267 /* SonicURLProtocol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		71CAEDED03B314A82A021E0326EDDE5C /* SonicConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 786A99E67DCCBDC842C507D324A8AD8B /* SonicConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		754F76A56084932BAF37849067E56A24 /* Pods-RelaxUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB8782104D25C7CF799A0BD7A155747 /* Pods-RelaxUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAE43498CDA22943035FEC029616E17D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7B0705AEAA77109C77367E3EE4F7790B /* VasSonic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C683D72C91DCB5444EF93CA41F4C6B1 /* VasSonic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BC33895ADD6BE35ECE2FEA9616A323C /* VasSonic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F96776EC3CFDCEC01F4DB24ED237EDC /* VasSonic-dummy.m */; };
+		8570C3E8D0F976955F4BB93774A11AE5 /* SonicResourceLoadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA1181F10B8D6939B32AD35DA8F47A5 /* SonicResourceLoadOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E2B453D18BA755E6CFC3C8B64D86A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		890591553FDE3820DDD9A55E36CAC88D /* SonicCacheItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B71A7F2A62504F89A958016B3D0DAB82 /* SonicCacheItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9982277E89D14F96F2B8AED94E70D16D /* SonicServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B23034E122F5F62C08F572AD791365D /* SonicServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9989651C0C9E54A9A8E87ED6E76E8EFA /* SonicCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 958FA48DCA07E1A292FFD0B704ACCF0C /* SonicCacheItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AC8CA55557AD21AB93C8EAECD896D98E /* SonicEventStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = A9500838DBAA5A9C6D98EF9251FA4215 /* SonicEventStatistics.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACA978FC18D89C084912110501AEDBDD /* SonicSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3AD5E39C5628D021429CD03C8A2BDE /* SonicSessionConfiguration.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFBED534D8DB350D131FED9C186481E0 /* SonicCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A9092870334C862ACF2B674FD9EFF54D /* SonicCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCF8141E36EF86B200AFE88CADD5EE08 /* SonicSessionConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 303129E8E771746072D5EA4CBDEE3138 /* SonicSessionConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18B4ABB5A498396237E301ED8C45719 /* SonicURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A79B89DB7EA6CE5ED4DF1CC15F96078C /* SonicURLProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1E201189CE3B7B41AA59F356C3ADA30 /* Sonic.h in Headers */ = {isa = PBXBuildFile; fileRef = 671FA351E09FDC5682FC64A841CB0F1F /* Sonic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2950C747D271E083CAB82479E65B602 /* SonicSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EBF265B7D3BD06D4089A9BB37AAE92 /* SonicSession.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C8AF116C7A99BCA886A6903044503E3B /* Pods-Relax-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FAD345EF88CCA3B8C25B87B7A60E4C6 /* Pods-Relax-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE8F20E01019462F79E4C5EA834FC303 /* SonicConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F285A59541A4A81AA64BD3393155DC6 /* SonicConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFC93A36E0C3AB093FE163AB4DA0600D /* SonicEventConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E101F710BAC252554C818BC747D6929C /* SonicEventConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5D8FACACD0BC5507800ED4B7CA17393 /* SonicEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E8CD84C925244DF93BD24F09E5ECA /* SonicEngine.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EE8BED5064F9626E589327C2EB0BF192 /* SonicEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEDECE504AB2119ECED29C0E3F60FAB /* SonicEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,65 +58,103 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C543C48C593BE88FA04959BF72F2C40C;
+			remoteGlobalIDString = 763393D9852BF4EF223F88611ADC2C5C;
 			remoteInfo = "Pods-Relax";
+		};
+		4A7D4BFB6E6632D4E8610920E5FDF1A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8BEBD7CFB87418A557473D3C8EE69B0;
+			remoteInfo = VasSonic;
 		};
 		D1201383D62991441134B30EBFC8D434 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C543C48C593BE88FA04959BF72F2C40C;
+			remoteGlobalIDString = 763393D9852BF4EF223F88611ADC2C5C;
 			remoteInfo = "Pods-Relax";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0297FBC610A0ADBC8F0AF413C7506198 /* Pods_RelaxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RelaxUITests.framework; path = "Pods-RelaxUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0784DDE3C97B6FE64EEB1C16B30E25E0 /* Pods-Relax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Relax.release.xcconfig"; sourceTree = "<group>"; };
 		0881A76CE4C8E91798B47C7CC7A11D86 /* Pods-Relax-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Relax-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08D500190476214D8441E385BA9C7267 /* SonicURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicURLProtocol.m; path = "sonic-iOS/Sonic/Network/SonicURLProtocol.m"; sourceTree = "<group>"; };
 		0CEDE14EEB19E2E77B8824978EE30DD7 /* Pods-RelaxUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RelaxUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0D664E5DBA9F84F290CE77F6499C88E0 /* Pods-RelaxUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RelaxUITests-frameworks.sh"; sourceTree = "<group>"; };
 		1B621CAC5FAEBDC9CA52BCDA907B9D6E /* Pods-Relax-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Relax-resources.sh"; sourceTree = "<group>"; };
+		1F96776EC3CFDCEC01F4DB24ED237EDC /* VasSonic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VasSonic-dummy.m"; sourceTree = "<group>"; };
+		253C0F0FBEBE2CB6C1F64AD99FD560E7 /* VasSonic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VasSonic.framework; path = VasSonic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B05C1847473086346D17D31EC2EC20F /* SonicResourceLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicResourceLoader.m; path = "sonic-iOS/Sonic/ResourceLoader/SonicResourceLoader.m"; sourceTree = "<group>"; };
+		2B23034E122F5F62C08F572AD791365D /* SonicServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicServer.h; path = "sonic-iOS/Sonic/Network/SonicServer.h"; sourceTree = "<group>"; };
+		2DA1181F10B8D6939B32AD35DA8F47A5 /* SonicResourceLoadOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicResourceLoadOperation.h; path = "sonic-iOS/Sonic/ResourceLoader/SonicResourceLoadOperation.h"; sourceTree = "<group>"; };
 		2FAD345EF88CCA3B8C25B87B7A60E4C6 /* Pods-Relax-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Relax-umbrella.h"; sourceTree = "<group>"; };
+		303129E8E771746072D5EA4CBDEE3138 /* SonicSessionConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicSessionConfiguration.h; path = "sonic-iOS/Sonic/Session/SonicSessionConfiguration.h"; sourceTree = "<group>"; };
 		309BFF7FB6A81A094634EFD495DBD0FC /* Pods-RelaxTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RelaxTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		30B91877250E7F1CBEAB2E6BC2D62AD2 /* Pods-RelaxTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RelaxTests-frameworks.sh"; sourceTree = "<group>"; };
+		32FD013A9FD9ABCA4CB32E92455C5C7D /* SonicUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicUtil.m; path = "sonic-iOS/Sonic/Util/SonicUtil.m"; sourceTree = "<group>"; };
+		34CCC9B996828CF71F38BC7B9EA38DD7 /* VasSonic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VasSonic.xcconfig; sourceTree = "<group>"; };
+		39F22CEE13FF4A362ABDA25D4960DA6A /* SonicDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicDatabase.m; path = "sonic-iOS/Sonic/Cache/SonicDatabase.m"; sourceTree = "<group>"; };
 		3C5BF11D379FAD17D6F0FED2AF2634E1 /* Pods-RelaxTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RelaxTests-resources.sh"; sourceTree = "<group>"; };
 		3E60E349C80819D6F6F636A9E4356747 /* Pods-RelaxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RelaxUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4CA1B27AF582E1C0750931F456A55BD7 /* Pods_RelaxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RelaxTests.framework; path = "Pods-RelaxTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485D8BA54C14BF64C13429E50E615127 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FC013FE94DC85C9B59289B8312030F /* SonicResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicResourceLoader.h; path = "sonic-iOS/Sonic/ResourceLoader/SonicResourceLoader.h"; sourceTree = "<group>"; };
 		573F2B1652573A671B722285EDA262D6 /* Pods-RelaxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RelaxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C232F3E701C02838A03664BAABB7FDE /* Pods-Relax.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Relax.modulemap"; sourceTree = "<group>"; };
+		5C683D72C91DCB5444EF93CA41F4C6B1 /* VasSonic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VasSonic-umbrella.h"; sourceTree = "<group>"; };
+		62EBA3E9E89AFF112F9F5ABEC2A6D9C1 /* SonicResourceLoadOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicResourceLoadOperation.m; path = "sonic-iOS/Sonic/ResourceLoader/SonicResourceLoadOperation.m"; sourceTree = "<group>"; };
+		671FA351E09FDC5682FC64A841CB0F1F /* Sonic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sonic.h; path = "sonic-iOS/Sonic/Sonic.h"; sourceTree = "<group>"; };
+		6F285A59541A4A81AA64BD3393155DC6 /* SonicConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicConfiguration.h; path = "sonic-iOS/Sonic/Engine/SonicConfiguration.h"; sourceTree = "<group>"; };
+		70EBF265B7D3BD06D4089A9BB37AAE92 /* SonicSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicSession.m; path = "sonic-iOS/Sonic/Session/SonicSession.m"; sourceTree = "<group>"; };
 		72BC5B5C36C4B75AD6C64E9577659E75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786A99E67DCCBDC842C507D324A8AD8B /* SonicConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicConstants.h; path = "sonic-iOS/Sonic/SonicConstants.h"; sourceTree = "<group>"; };
+		7EA3F6B33C139D9A81E8BD5495F0EA7C /* SonicDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicDatabase.h; path = "sonic-iOS/Sonic/Cache/SonicDatabase.h"; sourceTree = "<group>"; };
 		8BD8B074628894E40A52A10B63B49640 /* Pods-RelaxUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RelaxUITests.modulemap"; sourceTree = "<group>"; };
+		91A1A3677C149317E0633D76007DD950 /* SonicSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicSession.h; path = "sonic-iOS/Sonic/Session/SonicSession.h"; sourceTree = "<group>"; };
 		930CEAFC06619C2625E0BC4818B58C64 /* Pods-RelaxTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RelaxTests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958FA48DCA07E1A292FFD0B704ACCF0C /* SonicCacheItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicCacheItem.m; path = "sonic-iOS/Sonic/Cache/SonicCacheItem.m"; sourceTree = "<group>"; };
+		98C1F7FABD382596BF6802EC6A39D27D /* VasSonic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VasSonic.modulemap; sourceTree = "<group>"; };
+		9D184AE4845619F88405E4EF69D5F22C /* SonicConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicConfiguration.m; path = "sonic-iOS/Sonic/Engine/SonicConfiguration.m"; sourceTree = "<group>"; };
+		9F19884540831D7A49BD36D1BC95377E /* SonicProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicProtocol.h; path = "sonic-iOS/Sonic/SonicProtocol.h"; sourceTree = "<group>"; };
+		9F773F1059AD787F88640019F94BC6A6 /* SonicConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicConnection.m; path = "sonic-iOS/Sonic/Network/SonicConnection.m"; sourceTree = "<group>"; };
+		A002F2957E7E7F7222910F4F6E07FAB6 /* Pods_RelaxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RelaxTests.framework; path = "Pods-RelaxTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05033D3568474E9B953D7B648CFF7C9 /* Pods-Relax-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Relax-frameworks.sh"; sourceTree = "<group>"; };
+		A12E8CD84C925244DF93BD24F09E5ECA /* SonicEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicEngine.m; path = "sonic-iOS/Sonic/Engine/SonicEngine.m"; sourceTree = "<group>"; };
 		A59258C95D4D72C914F1CD82F50235B1 /* Pods-Relax-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Relax-dummy.m"; sourceTree = "<group>"; };
+		A6ED85B0D44AA019BF0B0C6183D01EF4 /* SonicCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicCache.m; path = "sonic-iOS/Sonic/Cache/SonicCache.m"; sourceTree = "<group>"; };
+		A79B89DB7EA6CE5ED4DF1CC15F96078C /* SonicURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicURLProtocol.h; path = "sonic-iOS/Sonic/Network/SonicURLProtocol.h"; sourceTree = "<group>"; };
+		A9092870334C862ACF2B674FD9EFF54D /* SonicCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicCache.h; path = "sonic-iOS/Sonic/Cache/SonicCache.h"; sourceTree = "<group>"; };
+		A9500838DBAA5A9C6D98EF9251FA4215 /* SonicEventStatistics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicEventStatistics.m; path = "sonic-iOS/Sonic/Statistics/SonicEventStatistics.m"; sourceTree = "<group>"; };
+		ACB3AADD99E259A9DD63A90B679AB24C /* Pods_RelaxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RelaxUITests.framework; path = "Pods-RelaxUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8CC326A00FA1D968050E541F2C53EF /* SonicUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicUtil.h; path = "sonic-iOS/Sonic/Util/SonicUtil.h"; sourceTree = "<group>"; };
 		AEAB9EC4AF35361B4F8C997B10EE6E6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEDECE504AB2119ECED29C0E3F60FAB /* SonicEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicEngine.h; path = "sonic-iOS/Sonic/Engine/SonicEngine.h"; sourceTree = "<group>"; };
 		B4E71D0E88C11C9AEC08081B391DF486 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B51E477A1EBC48E6CF24BE7DC7B24732 /* Pods-Relax-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Relax-acknowledgements.plist"; sourceTree = "<group>"; };
+		B71A7F2A62504F89A958016B3D0DAB82 /* SonicCacheItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicCacheItem.h; path = "sonic-iOS/Sonic/Cache/SonicCacheItem.h"; sourceTree = "<group>"; };
 		C12EE92640F64D9FF40A72AA33357DF8 /* Pods-RelaxUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RelaxUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C67CF7C3FA450A9DAC31D4D76E3F5774 /* SonicServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicServer.m; path = "sonic-iOS/Sonic/Network/SonicServer.m"; sourceTree = "<group>"; };
 		CBD9F24C9D87C689DC230733098E348C /* Pods-RelaxTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RelaxTests-umbrella.h"; sourceTree = "<group>"; };
+		CF3AD5E39C5628D021429CD03C8A2BDE /* SonicSessionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SonicSessionConfiguration.m; path = "sonic-iOS/Sonic/Session/SonicSessionConfiguration.m"; sourceTree = "<group>"; };
 		CFD457CE90C3DC6053D21119B58021AF /* Pods-RelaxTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RelaxTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D56F2AF210C9F3FF64B491F631C8F541 /* Pods-RelaxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RelaxTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7283D87D80BC9FA4F04EB469C619366 /* Pods-RelaxUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RelaxUITests-dummy.m"; sourceTree = "<group>"; };
-		DC2AB4D2EE25D6FC407A3D984380663D /* Pods_Relax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Relax.framework; path = "Pods-Relax.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9C945D47795788FAD8328F9FCC66F7 /* Pods-RelaxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RelaxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEC1E2FB9741F8554E049CBEE9153CFD /* SonicConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicConnection.h; path = "sonic-iOS/Sonic/Network/SonicConnection.h"; sourceTree = "<group>"; };
+		E101F710BAC252554C818BC747D6929C /* SonicEventConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicEventConstants.h; path = "sonic-iOS/Sonic/Statistics/SonicEventConstants.h"; sourceTree = "<group>"; };
 		E2567FF56B346EB07E37119901EC9BDE /* Pods-RelaxTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RelaxTests-dummy.m"; sourceTree = "<group>"; };
+		E544BE2633BB9163D43DA8E5AD6BA16E /* SonicEventStatistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SonicEventStatistics.h; path = "sonic-iOS/Sonic/Statistics/SonicEventStatistics.h"; sourceTree = "<group>"; };
 		E8FD8FC5EE339679D4186EB4E2EC5F82 /* Pods-RelaxUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RelaxUITests-resources.sh"; sourceTree = "<group>"; };
+		EA14AEBEBBE309A3E69DD0B4D89ACAD8 /* VasSonic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VasSonic-prefix.pch"; sourceTree = "<group>"; };
 		EFB8782104D25C7CF799A0BD7A155747 /* Pods-RelaxUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RelaxUITests-umbrella.h"; sourceTree = "<group>"; };
 		F7E7CABCEC28DE80E4D75417211AF559 /* Pods-Relax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Relax.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB2D76EC7609CE0986F57C9EC33F824 /* Pods_Relax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Relax.framework; path = "Pods-Relax.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		028C5030C3C09F6152B830E2780EF4FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAE43498CDA22943035FEC029616E17D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2F77B4601788BD7BF479AD8833D52E20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +168,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1672A8CADCCF854D077099B0258F1F54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEAE20CAED69BE40E6C11DCB3220AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E2B453D18BA755E6CFC3C8B64D86A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14D8A7389675F5A1E22F3BEF9473952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641AF467DD67BB79E9CE6B0EC396CFB3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +206,66 @@
 			);
 			name = "Pods-RelaxUITests";
 			path = "Target Support Files/Pods-RelaxUITests";
+			sourceTree = "<group>";
+		};
+		26A75BB21A5665D845AA4BD766096034 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26CCA68DEAB55D17E468287C4E8E5EB9 /* VasSonic */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26CCA68DEAB55D17E468287C4E8E5EB9 /* VasSonic */ = {
+			isa = PBXGroup;
+			children = (
+				671FA351E09FDC5682FC64A841CB0F1F /* Sonic.h */,
+				A9092870334C862ACF2B674FD9EFF54D /* SonicCache.h */,
+				A6ED85B0D44AA019BF0B0C6183D01EF4 /* SonicCache.m */,
+				B71A7F2A62504F89A958016B3D0DAB82 /* SonicCacheItem.h */,
+				958FA48DCA07E1A292FFD0B704ACCF0C /* SonicCacheItem.m */,
+				6F285A59541A4A81AA64BD3393155DC6 /* SonicConfiguration.h */,
+				9D184AE4845619F88405E4EF69D5F22C /* SonicConfiguration.m */,
+				DEC1E2FB9741F8554E049CBEE9153CFD /* SonicConnection.h */,
+				9F773F1059AD787F88640019F94BC6A6 /* SonicConnection.m */,
+				786A99E67DCCBDC842C507D324A8AD8B /* SonicConstants.h */,
+				7EA3F6B33C139D9A81E8BD5495F0EA7C /* SonicDatabase.h */,
+				39F22CEE13FF4A362ABDA25D4960DA6A /* SonicDatabase.m */,
+				AFEDECE504AB2119ECED29C0E3F60FAB /* SonicEngine.h */,
+				A12E8CD84C925244DF93BD24F09E5ECA /* SonicEngine.m */,
+				E101F710BAC252554C818BC747D6929C /* SonicEventConstants.h */,
+				E544BE2633BB9163D43DA8E5AD6BA16E /* SonicEventStatistics.h */,
+				A9500838DBAA5A9C6D98EF9251FA4215 /* SonicEventStatistics.m */,
+				9F19884540831D7A49BD36D1BC95377E /* SonicProtocol.h */,
+				55FC013FE94DC85C9B59289B8312030F /* SonicResourceLoader.h */,
+				2B05C1847473086346D17D31EC2EC20F /* SonicResourceLoader.m */,
+				2DA1181F10B8D6939B32AD35DA8F47A5 /* SonicResourceLoadOperation.h */,
+				62EBA3E9E89AFF112F9F5ABEC2A6D9C1 /* SonicResourceLoadOperation.m */,
+				2B23034E122F5F62C08F572AD791365D /* SonicServer.h */,
+				C67CF7C3FA450A9DAC31D4D76E3F5774 /* SonicServer.m */,
+				91A1A3677C149317E0633D76007DD950 /* SonicSession.h */,
+				70EBF265B7D3BD06D4089A9BB37AAE92 /* SonicSession.m */,
+				303129E8E771746072D5EA4CBDEE3138 /* SonicSessionConfiguration.h */,
+				CF3AD5E39C5628D021429CD03C8A2BDE /* SonicSessionConfiguration.m */,
+				A79B89DB7EA6CE5ED4DF1CC15F96078C /* SonicURLProtocol.h */,
+				08D500190476214D8441E385BA9C7267 /* SonicURLProtocol.m */,
+				AD8CC326A00FA1D968050E541F2C53EF /* SonicUtil.h */,
+				32FD013A9FD9ABCA4CB32E92455C5C7D /* SonicUtil.m */,
+				F8E171765C33F9FFC1B7EF3D94ECB153 /* Support Files */,
+			);
+			name = VasSonic;
+			path = VasSonic;
+			sourceTree = "<group>";
+		};
+		29C79C60D033FD8C9EB84740A3411D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB2D76EC7609CE0986F57C9EC33F824 /* Pods_Relax.framework */,
+				A002F2957E7E7F7222910F4F6E07FAB6 /* Pods_RelaxTests.framework */,
+				ACB3AADD99E259A9DD63A90B679AB24C /* Pods_RelaxUITests.framework */,
+				253C0F0FBEBE2CB6C1F64AD99FD560E7 /* VasSonic.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4F3C2E4BF0C3F9BE7F4B20D74C379801 /* Pods-RelaxTests */ = {
@@ -150,19 +299,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				88F7B4E0A877E88A7104B795B552CAAC /* Products */,
+				26A75BB21A5665D845AA4BD766096034 /* Pods */,
+				29C79C60D033FD8C9EB84740A3411D66 /* Products */,
 				C974C5C6B02F69FABB5E6D06C2F84D03 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		88F7B4E0A877E88A7104B795B552CAAC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DC2AB4D2EE25D6FC407A3D984380663D /* Pods_Relax.framework */,
-				4CA1B27AF582E1C0750931F456A55BD7 /* Pods_RelaxTests.framework */,
-				0297FBC610A0ADBC8F0AF413C7506198 /* Pods_RelaxUITests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -201,9 +341,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F8E171765C33F9FFC1B7EF3D94ECB153 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				485D8BA54C14BF64C13429E50E615127 /* Info.plist */,
+				98C1F7FABD382596BF6802EC6A39D27D /* VasSonic.modulemap */,
+				34CCC9B996828CF71F38BC7B9EA38DD7 /* VasSonic.xcconfig */,
+				1F96776EC3CFDCEC01F4DB24ED237EDC /* VasSonic-dummy.m */,
+				EA14AEBEBBE309A3E69DD0B4D89ACAD8 /* VasSonic-prefix.pch */,
+				5C683D72C91DCB5444EF93CA41F4C6B1 /* VasSonic-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VasSonic";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		49C49F32CEF01A9C2644090A688030FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E201189CE3B7B41AA59F356C3ADA30 /* Sonic.h in Headers */,
+				AFBED534D8DB350D131FED9C186481E0 /* SonicCache.h in Headers */,
+				890591553FDE3820DDD9A55E36CAC88D /* SonicCacheItem.h in Headers */,
+				CE8F20E01019462F79E4C5EA834FC303 /* SonicConfiguration.h in Headers */,
+				5B30A5282A289F8D64951BF28F376DB9 /* SonicConnection.h in Headers */,
+				71CAEDED03B314A82A021E0326EDDE5C /* SonicConstants.h in Headers */,
+				0128E1BC2440DDF7FEFE11D88B1FDFFC /* SonicDatabase.h in Headers */,
+				EE8BED5064F9626E589327C2EB0BF192 /* SonicEngine.h in Headers */,
+				DFC93A36E0C3AB093FE163AB4DA0600D /* SonicEventConstants.h in Headers */,
+				466442121BABC120A7B3B8936CEF3555 /* SonicEventStatistics.h in Headers */,
+				474D3B676A9390689A6E1CB383CC0D56 /* SonicProtocol.h in Headers */,
+				2F6EECC1D8CC53258433AF7B64FBAEE9 /* SonicResourceLoader.h in Headers */,
+				8570C3E8D0F976955F4BB93774A11AE5 /* SonicResourceLoadOperation.h in Headers */,
+				9982277E89D14F96F2B8AED94E70D16D /* SonicServer.h in Headers */,
+				475C46F8EB7C32A84C491D713E4CC025 /* SonicSession.h in Headers */,
+				BCF8141E36EF86B200AFE88CADD5EE08 /* SonicSessionConfiguration.h in Headers */,
+				C18B4ABB5A498396237E301ED8C45719 /* SonicURLProtocol.h in Headers */,
+				15A48562A67150EBAEC40E5E654DA924 /* SonicUtil.h in Headers */,
+				7B0705AEAA77109C77367E3EE4F7790B /* VasSonic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75C9B04706EBEF5E10F317BA5A6A7769 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,11 +400,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C98C348E415CD7F3852142058B964374 /* Headers */ = {
+		B0602E3B0508421ADFEB52C96BEFF39A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E5E6255E26D031326894C0CA92023C4 /* Pods-Relax-umbrella.h in Headers */,
+				C8AF116C7A99BCA886A6903044503E3B /* Pods-Relax-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,24 +426,42 @@
 			);
 			name = "Pods-RelaxTests";
 			productName = "Pods-RelaxTests";
-			productReference = 4CA1B27AF582E1C0750931F456A55BD7 /* Pods_RelaxTests.framework */;
+			productReference = A002F2957E7E7F7222910F4F6E07FAB6 /* Pods_RelaxTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C543C48C593BE88FA04959BF72F2C40C /* Pods-Relax */ = {
+		763393D9852BF4EF223F88611ADC2C5C /* Pods-Relax */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03E7DBCBB849DFA7A89EE020DC8EDAEF /* Build configuration list for PBXNativeTarget "Pods-Relax" */;
+			buildConfigurationList = AA0FC1942E10E3833F214793A6D5F95D /* Build configuration list for PBXNativeTarget "Pods-Relax" */;
 			buildPhases = (
-				F419A11B9DA1D4BDCD54BFC9A5103426 /* Sources */,
-				028C5030C3C09F6152B830E2780EF4FA /* Frameworks */,
-				C98C348E415CD7F3852142058B964374 /* Headers */,
+				10E9E4F7870FF3B5D39F6DAFF859AD80 /* Sources */,
+				B14D8A7389675F5A1E22F3BEF9473952 /* Frameworks */,
+				B0602E3B0508421ADFEB52C96BEFF39A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F49E5BB8863C33B7544259018AAFD9B /* PBXTargetDependency */,
+			);
+			name = "Pods-Relax";
+			productName = "Pods-Relax";
+			productReference = FFB2D76EC7609CE0986F57C9EC33F824 /* Pods_Relax.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8BEBD7CFB87418A557473D3C8EE69B0 /* VasSonic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7322A06DCEE7DB7E3A98BEB123760E06 /* Build configuration list for PBXNativeTarget "VasSonic" */;
+			buildPhases = (
+				7D421E710B1FDE5B3DA7C288019E516D /* Sources */,
+				8DEAE20CAED69BE40E6C11DCB3220AB5 /* Frameworks */,
+				49C49F32CEF01A9C2644090A688030FB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Relax";
-			productName = "Pods-Relax";
-			productReference = DC2AB4D2EE25D6FC407A3D984380663D /* Pods_Relax.framework */;
+			name = VasSonic;
+			productName = VasSonic;
+			productReference = 253C0F0FBEBE2CB6C1F64AD99FD560E7 /* VasSonic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D3ED30CF1174D5B9F25FB8786004F86D /* Pods-RelaxUITests */ = {
@@ -281,7 +479,7 @@
 			);
 			name = "Pods-RelaxUITests";
 			productName = "Pods-RelaxUITests";
-			productReference = 0297FBC610A0ADBC8F0AF413C7506198 /* Pods_RelaxUITests.framework */;
+			productReference = ACB3AADD99E259A9DD63A90B679AB24C /* Pods_RelaxUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -301,18 +499,49 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 88F7B4E0A877E88A7104B795B552CAAC /* Products */;
+			productRefGroup = 29C79C60D033FD8C9EB84740A3411D66 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C543C48C593BE88FA04959BF72F2C40C /* Pods-Relax */,
+				763393D9852BF4EF223F88611ADC2C5C /* Pods-Relax */,
 				3D15E390A9F9ABC3A08964491B8AF8AF /* Pods-RelaxTests */,
 				D3ED30CF1174D5B9F25FB8786004F86D /* Pods-RelaxUITests */,
+				B8BEBD7CFB87418A557473D3C8EE69B0 /* VasSonic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		10E9E4F7870FF3B5D39F6DAFF859AD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217FDDD3DE625A66418B74970D9D515C /* Pods-Relax-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D421E710B1FDE5B3DA7C288019E516D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29114C49F0035C56EEC23CAC5F554D09 /* SonicCache.m in Sources */,
+				9989651C0C9E54A9A8E87ED6E76E8EFA /* SonicCacheItem.m in Sources */,
+				1C8A8F272B1A6E9B3B9E28785E31C6F0 /* SonicConfiguration.m in Sources */,
+				49787956DE5BD36C0CD092878BAA66DE /* SonicConnection.m in Sources */,
+				03EB56C72F0DA537DD464D193ECB4CA0 /* SonicDatabase.m in Sources */,
+				E5D8FACACD0BC5507800ED4B7CA17393 /* SonicEngine.m in Sources */,
+				AC8CA55557AD21AB93C8EAECD896D98E /* SonicEventStatistics.m in Sources */,
+				383B7CBA23F11401D1DB2BB1A4E2ADD2 /* SonicResourceLoader.m in Sources */,
+				49787A9527779F7CE0F01D23D2DD7BD0 /* SonicResourceLoadOperation.m in Sources */,
+				148CA47D1A8438F7E1796464C70BAF9B /* SonicServer.m in Sources */,
+				C2950C747D271E083CAB82479E65B602 /* SonicSession.m in Sources */,
+				ACA978FC18D89C084912110501AEDBDD /* SonicSessionConfiguration.m in Sources */,
+				6ACBDD6DCA2FCD222C02485356BED260 /* SonicURLProtocol.m in Sources */,
+				187B41EAED0447B10AA81BD22EFC403C /* SonicUtil.m in Sources */,
+				7BC33895ADD6BE35ECE2FEA9616A323C /* VasSonic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9847E1C55ADC419BDB07590AE2C14E76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,27 +558,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F419A11B9DA1D4BDCD54BFC9A5103426 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3332E9BFC405CD42B1FB6DEF0DD8D923 /* Pods-Relax-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4F49E5BB8863C33B7544259018AAFD9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VasSonic;
+			target = B8BEBD7CFB87418A557473D3C8EE69B0 /* VasSonic */;
+			targetProxy = 4A7D4BFB6E6632D4E8610920E5FDF1A5 /* PBXContainerItemProxy */;
+		};
 		AF48FEC1DE0787E7A776A134762DCE47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Relax";
-			target = C543C48C593BE88FA04959BF72F2C40C /* Pods-Relax */;
+			target = 763393D9852BF4EF223F88611ADC2C5C /* Pods-Relax */;
 			targetProxy = 0352CBE3125A4FAF321D67F81E263ABF /* PBXContainerItemProxy */;
 		};
 		D9D430BFF43A92595A3070AE68FC56C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Relax";
-			target = C543C48C593BE88FA04959BF72F2C40C /* Pods-Relax */;
+			target = 763393D9852BF4EF223F88611ADC2C5C /* Pods-Relax */;
 			targetProxy = D1201383D62991441134B30EBFC8D434 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -418,6 +645,80 @@
 			};
 			name = Debug;
 		};
+		45613F64B44C7CDF7563098C35F3D3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0784DDE3C97B6FE64EEB1C16B30E25E0 /* Pods-Relax.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Relax/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Relax/Pods-Relax.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67C7D33FEA2F98BDFBD55901C04918E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CCC9B996828CF71F38BC7B9EA38DD7 /* VasSonic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VasSonic/VasSonic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VasSonic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VasSonic/VasSonic.modulemap";
+				PRODUCT_MODULE_NAME = VasSonic;
+				PRODUCT_NAME = VasSonic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		69D4573FCFAF89BB17B1C507D135B2CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 573F2B1652573A671B722285EDA262D6 /* Pods-RelaxTests.debug.xcconfig */;
@@ -455,6 +756,41 @@
 			};
 			name = Debug;
 		};
+		954E1137A83DE2921BA1943EABE82DD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CCC9B996828CF71F38BC7B9EA38DD7 /* VasSonic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VasSonic/VasSonic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VasSonic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VasSonic/VasSonic.modulemap";
+				PRODUCT_MODULE_NAME = VasSonic;
+				PRODUCT_NAME = VasSonic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		BBF92E1454507E195671ECEB37822BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E60E349C80819D6F6F636A9E4356747 /* Pods-RelaxUITests.release.xcconfig */;
@@ -479,44 +815,6 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RelaxUITests/Pods-RelaxUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C217828F548F9DCD4723B77BAE76BDA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0784DDE3C97B6FE64EEB1C16B30E25E0 /* Pods-Relax.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Relax/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Relax/Pods-Relax.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -568,7 +866,7 @@
 			};
 			name = Debug;
 		};
-		D3E1FF81F4036B04A5717A30DE5511E3 /* Debug */ = {
+		DEACD44C4FACCC9F5396CC708B125ADB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7E7CABCEC28DE80E4D75417211AF559 /* Pods-Relax.debug.xcconfig */;
 			buildSettings = {
@@ -704,15 +1002,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03E7DBCBB849DFA7A89EE020DC8EDAEF /* Build configuration list for PBXNativeTarget "Pods-Relax" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3E1FF81F4036B04A5717A30DE5511E3 /* Debug */,
-				C217828F548F9DCD4723B77BAE76BDA1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		19CDBA246A3C8D187776D701DFFBF95D /* Build configuration list for PBXNativeTarget "Pods-RelaxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -731,11 +1020,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7322A06DCEE7DB7E3A98BEB123760E06 /* Build configuration list for PBXNativeTarget "VasSonic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954E1137A83DE2921BA1943EABE82DD7 /* Debug */,
+				67C7D33FEA2F98BDFBD55901C04918E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		78ACA4CBBC5C8D96274FC7524FA0DCE2 /* Build configuration list for PBXNativeTarget "Pods-RelaxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69D4573FCFAF89BB17B1C507D135B2CE /* Debug */,
 				E0D36E0E6CA7D202156C7A750D84CB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0FC1942E10E3833F214793A6D5F95D /* Build configuration list for PBXNativeTarget "Pods-Relax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEACD44C4FACCC9F5396CC708B125ADB /* Debug */,
+				45613F64B44C7CDF7563098C35F3D3A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

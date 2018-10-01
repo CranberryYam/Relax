@@ -93,4 +93,15 @@ public extension UIView {
         })
         
     }
+    
+    public func hyAnimateRotate(duration:TimeInterval = 2.0,
+                                delay:TimeInterval = 0 ) {
+        let rotationAnimation = CABasicAnimation(keyPath: "transform.rotation")
+        rotationAnimation.fromValue = 0.0
+        rotationAnimation.toValue = -Double.pi * 2 //Minus can be Direction
+        rotationAnimation.duration = duration
+        rotationAnimation.repeatCount = .infinity
+        self.layer.add(rotationAnimation, forKey: nil)
+    }
+    
 }

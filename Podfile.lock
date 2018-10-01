@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 9b713da5b5e95d6183eb096db669b97e8660366f
+PODS:
+  - VasSonic (3.0.0)
+
+DEPENDENCIES:
+  - VasSonic (= 3.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - VasSonic
+
+SPEC CHECKSUMS:
+  VasSonic: 681ec95418d485d8c501d13549e25dff18754893
+
+PODFILE CHECKSUM: ac3f47b37faf5018aa02ee57f369311aa0bcca17
 
 COCOAPODS: 1.5.3

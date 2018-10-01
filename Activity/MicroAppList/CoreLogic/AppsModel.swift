@@ -9,9 +9,9 @@
 import Foundation
 
 struct AppsModel {
-    let imageName:String
+    let imageUrl: String
     let name: String
     let controllerName: String
-    let params: [String:Any]?
+    let htmlUrl: String
 }
 

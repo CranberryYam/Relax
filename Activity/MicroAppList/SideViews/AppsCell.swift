@@ -14,13 +14,13 @@ class AppsCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.layer.borderColor = UIColor.hyCollectionBorder.cgColor
-        self.layer.borderWidth = 1
+        self.imageView.contentMode = .scaleAspectFit
+        self.backgroundColor = UIColor.white
     }
-    func addDatas(imageName:String, name:String) {
-        if let image = UIImage(named: imageName) {
-            imageView.image = image
-        }
+    func addDatas(_ imageUrl:String, _ name:String) {
+//        if let image = UIImage(named: imageName) {
+//            imageView.image = image
+//        }
         nameL.text = name
     }
 }
